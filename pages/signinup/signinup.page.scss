@@ -1,0 +1,33 @@
+.signinup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  
+  }
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  
+  }
+  .subtitle {
+    text-transform: none;
+    color:#014421;
+}
+.main-tagline {
+  color: #7b1113;
+}
+.forgot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;  
+}
+.signup-start {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.signup-start p, .signup-start button {
+  margin: 0; 
+}

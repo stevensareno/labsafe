@@ -1,0 +1,11 @@
+<!-- src/app/chemdatabase-eye/chemdatabase-eye.page.html -->
+
+<ion-content>
+  <div *ngFor="let item of data">
+    <h2>{{ item.name }}</h2>
+    <p>Language: {{ item.language }}</p>
+    <p>ID: {{ item.id }}</p>
+    <p>Bio: {{ item.bio }}</p>
+    <p>Version: {{ item.version }}</p>
+  </div>
+</ion-content>

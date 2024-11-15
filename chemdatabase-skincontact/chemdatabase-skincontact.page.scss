@@ -1,0 +1,34 @@
+
+ion-title {
+    font-size: 16px;
+    color: #7b1113;               
+    text-align: center;  
+    padding-top: 0px; 
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+    border-bottom: none;
+
+}
+
+.custom-button {
+  --background:  #7b1113; /* Maroon color fill */
+  --color: white; /* White text */
+  --border-radius: 10px; /* Rounded corners */
+  width: 100%; /* Full width button */
+  margin: 5px 0; /* Add margin between buttons */
+  height: 50px;
+  font-family: 'Open Sans', sans-serif; 
+  text-align: left; /* Align text to the left */
+}
+
+.chem-button {
+  padding: 10px;
+}
+
+ion-item.button-chem {
+  --border-radius: 10px; /* Optional: Add roundness to the ion-item block */
+  padding: 0; /* Remove extra padding around the button */
+  --border-color: transparent;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left; /* Align text to the left */ 
+}

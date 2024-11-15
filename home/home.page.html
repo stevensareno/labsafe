@@ -1,0 +1,80 @@
+<ion-header>
+<div>
+<ion-title>Emergency Type</ion-title>
+</div>
+<div class="search-general">
+<ion-searchbar class="search" show-clear-button="focus" search-icon="search-circle" animated="true" placeholder="Search"></ion-searchbar>
+</div>
+</ion-header>
+  
+
+<ion-list>
+
+  <ion-item [button]="true" detail="false" [routerLink]="['/chemdatabase-eye']">
+    <img src="assets/icon/Eye.png" class="item-icon" />
+    <ion-label>Eye Contact</ion-label>
+  </ion-item>
+
+  <ion-item [button]="true" detail="false" [routerLink]="['/chemdatabase-firemanagement']">
+    <img src="assets/icon/fire.png" class="item-icon" />
+    <ion-label>Fire Management</ion-label>
+  </ion-item>
+
+  <ion-item [button]="true" detail="false" [routerLink]="['/chemdatabase-ingestion']">
+    <img src="assets/icon/mouth.png" class="item-icon" />
+    <ion-label>Ingestion</ion-label>
+  </ion-item>
+
+  <ion-item [button]="true" detail="false" [routerLink]="['/chemdatabase-inhalation']">
+    <img src="assets/icon/Nose.png" class="item-icon" />
+    <ion-label>Inhalation</ion-label>
+  </ion-item>
+
+  <ion-item [button]="true" detail="false" [routerLink]="['/chemdatabase-skincontact']">
+    <img src="assets/icon/Skin Allergy.png" class="item-icon" />
+    <ion-label>Skin Contact</ion-label>
+  </ion-item>
+
+  <ion-item [button]="true" detail="false" [routerLink]="['/chemdatabase-spill']">
+    <img src="assets/icon/Oil Spill.png" class="item-icon" />
+    <ion-label>Spill</ion-label>
+  </ion-item>
+</ion-list>
+
+
+<ion-footer [translucent]="true" class="custom-footer">
+    <ion-toolbar>
+      <ion-tabs>
+        <ion-tab-bar slot="bottom">
+        
+          <ion-tab-button tab="home">
+            <ion-icon name="home"></ion-icon>
+            <ion-label>Home</ion-label>
+          </ion-tab-button>
+          
+          <ion-tab-button tab="about">
+            <ion-icon name="list"></ion-icon>
+            <ion-label>Chemical List</ion-label>
+          </ion-tab-button>
+
+          <ion-tab-button tab="mic" class="voice-search-button">
+            <div class="voice-search-circle">
+              <ion-icon name="mic"></ion-icon>
+            </div>
+            <ion-label>Voice Search</ion-label>
+          </ion-tab-button>
+
+          <ion-tab-button tab="history">
+            <ion-icon name="time"></ion-icon>
+            <ion-label>History</ion-label>
+          </ion-tab-button>
+
+          <ion-tab-button tab="profile">
+            <ion-icon name="person"></ion-icon>
+            <ion-label>Profile</ion-label>
+          </ion-tab-button>
+
+        </ion-tab-bar>
+      </ion-tabs>
+    </ion-toolbar>
+  </ion-footer>

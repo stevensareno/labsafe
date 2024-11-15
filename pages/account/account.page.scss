@@ -1,0 +1,53 @@
+img {
+    width: 82px; /* Makes the image responsive */
+    height: 102px; /* Maintains the aspect ratio */
+  }
+
+  img {
+   
+  width: 20%; /* Set to a percentage of the parent container */
+  max-width: 82px; /* Maintain the original width */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Center with margin auto */
+  margin: 20px auto;
+
+  @media (min-width: 768px) {
+    width: 15%; /* Slightly smaller for tablets */
+    max-width: 72px; /* Adjust max width as needed */
+  }
+
+  @media (min-width: 1024px) {
+    width: 10%; /* Even smaller for larger screens */
+    max-width: 62px; /* Further adjust max width */
+  }
+
+  }
+
+  .custom-text {
+    color:  #7b1113; /* Change text color to maroon */
+    font-size: 36px; /* Adjust font size */
+    text-align: center; /* Center the text horizontally */
+    margin-top: 10px; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    margin: 96px auto;
+  }
+
+  .button-container {
+    display: flex; /* Use flexbox to arrange buttons in a column */
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center the buttons horizontally */
+    font-family: 'Open Sans', sans-serif; 
+  }
+  
+  .custom-button {
+    --background: #014c15; /* Set custom background color using CSS variable */
+    --color: white;
+    width: 317px; /* Set a specific width for the buttons */
+    height: 50px; /* Set a specific height for the buttons */
+    margin: 5px 0; /* Space between buttons */
+    border-radius: 6px; /* Optional: Round corners */
+    font-family: 'Open Sans', sans-serif; 
+    
+
+  }
